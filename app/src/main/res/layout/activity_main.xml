@@ -18,7 +18,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="75dp"
-        android:id="@+id/buttonStart" />
+        android:id="@+id/buttonStart"
+        android:textStyle="bold"/>
 
     <Button
         android:text="Stop Service"
@@ -28,7 +29,8 @@
         android:layout_alignLeft="@+id/buttonStart"
         android:layout_alignStart="@+id/buttonStart"
         android:layout_marginTop="75dp"
-        android:id="@+id/buttonStop" />
+        android:id="@+id/buttonStop"
+        android:textStyle="bold"/>
 
     <Button
         android:text="Next Page"
@@ -37,6 +39,7 @@
         android:layout_below="@+id/buttonStop"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="75dp"
-        android:id="@+id/buttonNext" />
+        android:id="@+id/buttonNext"
+        android:textStyle="bold"/>
 
 </RelativeLayout>
