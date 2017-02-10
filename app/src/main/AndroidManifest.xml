@@ -16,6 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".NextPage"></activity>
+        <service android:name=".MyService"
+            android:enabled="true"
+            />
     </application>
 
 </manifest>
